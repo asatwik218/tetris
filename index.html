@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>tetris</title>
+  </head>
+  <body>
+    <div class="container">
+     
+      <div class="controls middle">
+        <canvas id="canvas" width="350" height="525"></canvas>
+        <p> Score : <span id="score">0</span> </p>
+      </div>
+      <div class="controls left">
+        <i class="fas fa-arrow-left fa-2x"></i>
+        <i class="fas fa-arrow-down fa-2x"></i>
+      </div>
+      <div class="controls right">
+        <i class="fas fa-sync-alt fa-2x"></i>
+        <i class="fas fa-arrow-right fa-2x"></i>
+      </div>
+    </div>
+    <script src="tetrominos.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
