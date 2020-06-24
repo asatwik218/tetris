@@ -35,5 +35,6 @@ p{
     order: -1;
 }
 @media (max-width :500px){
-    
-}
+    i{
+        padding:0.25 em;
+    }}
